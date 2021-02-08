@@ -24,10 +24,6 @@ This project will run if downloaded, provided appropriate packages have been ins
   
      As training commences, neuron weights tend to exponentially increase, these classes keeps neuron weights small, keeping computation time down. However, only one of these functions may be used, not both.
 
-  * Twitter_Stream.py and Tweet_Analyzer.py
-  
-     Preforms tasks very similar to WebScraper.py except using twitter as an article source.
-
   * AdaGrad_optimizer.py Adam_optimizer.py Adam_optimizer.py  and SGD_optimizer
 
     These are optimizers, there job is to govern the training process directly controlling which neuron weights are changed and when. Only one may be used at a time on any one training run. 
